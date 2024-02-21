@@ -49,14 +49,11 @@ public class TestStack
     }
 
 
-   /* @Test
-    public void ExceptionIfTheStackIsNotEmptyAfterPickingElement() {
+    @Test
+    public void ExceptionIfTheStackIsEmptyAfterPickingAnElement() {
         Stack stack = new Stack();
-        stack.push(5);
-
-        //assertThrows()
-
-    }*/
+        assertThrows(IllegalStateException.class, () -> stack.peek());
+    }
 
     @Test
     public void ReturnTrueIfStackIsEmpty() {

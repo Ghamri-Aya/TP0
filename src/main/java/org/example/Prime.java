@@ -1,6 +1,6 @@
 package org.example;
 
-//verifier si les nb sont premiers
+//verifier si les nbs sont premiers
 public class Prime {
     public static boolean isPrime(int n) {
         if (n < 2) {
