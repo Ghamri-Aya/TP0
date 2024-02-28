@@ -1,7 +1,7 @@
 import org.example.Prime;
 import org.junit.Test;
 import static org.junit.Assert.*;
-
+//testprime
 public class TestPrime
 {
     @Test
